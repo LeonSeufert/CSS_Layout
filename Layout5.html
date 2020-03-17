@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    
+<head>
+    <meta charset="utf-8"/>
+    <title>Layout 2</title>
+    <style>
+        div {
+            outline: 1px solid black;
+        }
+        #container{
+            display:grid;
+            margin:auto;
+            max-width:800px;
+            grid-template-columns:  ;
+        }
+        
+        #blue{
+            display:grid;
+            background-color:blue;
+            height:100px;
+            grid-template-columns: 80% 20%;
+            grid-column:1/4;
+            
+        }
+      
+        
+        
+        
+        
+        .yellow1 {
+            
+            background-color:yellow;
+            margin:10px;
+            grid-column:2/2;
+            
+        }
+        
+        .yellow2 {
+             background-color:yellow;
+            margin:10px;
+            grid-column:2/3;
+        }
+        .red{
+            display:grid;
+            background-color:red;
+            grid-template-columns:  ;
+            height:500px;
+            grid-column:;
+            
+        }
+    </style>
+    
+    
+    </head>
+
+
+    
+    
+<body>
+    
+<div id="container">
+    <div id="blue">
+       <div class="yellow1"></div>
+    </div>
+    <div class="red"></div>
+    <div class="red">
+         <div class="yellow2"></div>
+         <div class="yellow2"></div>
+    </div>
+    
+    <div id="green"></div>
+    </div>
+    
+    
+    
+</body>
+
+
+
+
+
+
+
+
+
+</html>
